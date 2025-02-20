@@ -12,8 +12,8 @@ using api_filmes_senai.Context;
 namespace api_filmes_senai.Migrations
 {
     [DbContext(typeof(Filme_Context))]
-    [Migration("20250218184911_Db.Context")]
-    partial class DbContext
+    [Migration("20250220130520_Db.Filmes")]
+    partial class DbFilmes
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

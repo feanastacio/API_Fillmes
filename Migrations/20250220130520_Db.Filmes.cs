@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace api_filmes_senai.Migrations
 {
     /// <inheritdoc />
-    public partial class DbContext : Migration
+    public partial class DbFilmes : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

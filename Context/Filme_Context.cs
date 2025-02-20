@@ -16,7 +16,7 @@ namespace api_filmes_senai.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server = NOTE42-S28\\SQLEXPRESS; Database=filmes; User Id = sa; Pwd = Senai@134; TrustServerCertificate=true; ");
+                optionsBuilder.UseSqlServer("Server = DESKTOP-S3CGL03\\SQLEXPRESS; Database=filmes; User Id = sa; Pwd = Senai@134; TrustServerCertificate=true; ");
             }
             
         }
